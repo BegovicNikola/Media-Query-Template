@@ -19,6 +19,14 @@ body{
 	font-family: "content";
 }
 
+.darkBg{
+	background-color: #252525;
+}
+
+.full{
+	width: 100%;
+}
+
 .container{
 	width: 900px;
 	margin: 0 auto;
@@ -192,7 +200,7 @@ body{
 	padding: 50px 0px;
 }
 
-#flexProject{
+.flexProject{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -303,7 +311,7 @@ body{
 	border-left: 2px solid #ccc;
 }
 
-.employee img{
+.employee>img{
 	height: 200px;
 	width: 200px;
 	border-radius: 8px 50% 8px 50%;
@@ -314,8 +322,42 @@ body{
 }
 
 .employee div{
-	text-align: justify;
+	text-align: center;
 	padding: 1%;
 }
 
 /*__________TEAM SECTION END__________*/
+
+/*__________CONTACT SECTION START__________*/
+#contact{
+	margin-top: 90px;
+	padding: 100px 0px;
+	background-image: url("../img/space.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#contactForm{
+	display: flex;
+	flex-flow: column;
+}
+
+#contactForm div{
+	margin-bottom: 10px;
+}
+
+/*__________CONTACT SECTION END__________*/
+
+/*__________FOOTER SECTION START__________*/
+
+#footer{
+	padding: 40px 0px;
+}
+
+#footer h5{
+	text-align: center;
+}
+
+/*__________FOOTER SECTION END__________*/

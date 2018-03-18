@@ -47,7 +47,7 @@
 	</section>
 	<section id="projectMain">
 		<article class="container alignImg">
-			<img src="img/miniFalcon.png"/>
+			<img src="img/miniFalcon.png" alt="Falcon Rocket"/>
 			<div>
 				<h3>Falcon 9</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -57,7 +57,7 @@
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
-			<img src="img/miniFalconHeavy.png"/>
+			<img src="img/miniFalconHeavy.png" alt="Falcon Heavy Rocket"/>
 			<div>
 				<h3>Falcon Heavy</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -70,7 +70,7 @@
 		</article>
 	</section>
 	<section id="projectReview">
-		<article id="flexProject" class="container">
+		<article class="container flexProject">
 			<div class="pro">
 				<span class="fa fa-connectdevelop" aria-hidden="true"></span><br/>
 				<h3>Infrastructure</h3>
@@ -128,18 +128,14 @@
 			<div>
 				<h3>Nikola Begovic</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat.</p>
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 			</div>
 		</article>
 		<article class="employee">
 			<div>
 				<h3>Nikola Begovic</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat.</p>
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 			</div>
 			<img src="img/begovic.jpg" alt=""/>
 		</article>
@@ -148,13 +144,53 @@
 			<div>
 				<h3>Nikola Begovic</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat.</p>
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 			</div>
 		</article>
 	</section>
 	<!--__________TEAM SECTION END____________-->
+	<!--__________CONTACT SECTION START__________-->
+	<section id="contact">
+		<article class="container">
+			<form id="contactForm" action="#" method="POST">
+				<div>
+					<label>Name:</label>
+					<input type="text" name="firstname" value="Mickey" />
+				</div>
+				<div>
+					<label>Name:</label>
+					<input type="text" name="lastname" value="Mouse" />
+				</div>
+				<div>
+					<input type="submit" value="Submit" />
+					<input type="reset" value="Reset" />
+				</div>
+			</form>
+		</article>
+	</section>
+	<!--__________CONTACT SECTION END__________-->
+	<!--__________FOOTER SECTION START__________-->
+	<footer id="footer" class="full">
+		<div class="container flexProject">
+			<div id="social" class="flexProject">
+				<span class="fa fa-sitemap"></span>
+				<span class="fa fa-github"></span>
+				<span class="fa fa-linkedin-square"></span>
+				<span class="fa fa-paperclip"></span>
+			</div>
+			<div id="search">
+				<form action="#" method="GET">
+					<input type="text" name="search" placeholder="Search..."/>
+					<button><span class="fa fa-search"></span></button>
+				</form>
+			</div>
+			<div id="location">
+				<p>Location <span class="fa fa-map-marker"></span></p>
+			</div>
+		</div>
+		<h5>Copyright &copy; Nikola Begovic 42/17</h5>
+	</footer>
+	<!--__________FOOTER SECTION END__________-->
 	<!--__________SCROLL REVEAL, PARTICLES, PARTICLES APP, MAIN JS FILE (SCROLL.JS)__________-->
 	<script type="text/javascript" src="js/lib/scrollreveal.min.js"></script>
 	<script type="text/javascript" src="js/lib/particles.min.js"></script>
