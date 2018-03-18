@@ -63,6 +63,11 @@ window.sr = ScrollReveal();
     duration: 1200,
     origin:"bottom" 
   }, 400);
+  sr.reveal("#team h2", {
+    delay: 600,
+    duration: 1200,
+    origin:"bottom"
+  });
   sr.reveal(".employee", {
     delay: 600,
     duration: 1200,
