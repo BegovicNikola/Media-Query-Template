@@ -167,12 +167,15 @@ body {
 }
 
 #mission p{
+	margin-top: 10px;
 	text-align: center;
+	font-style: italic;
 }
 
 #quote {
 	cursor: pointer;
 	text-align: center;
+	font-style: italic;
 }
 
 #projectMain {
@@ -303,9 +306,9 @@ body {
 }
 
 #team>h2 {
-	border-bottom: 2px solid #ccc;
-	border-radius: 10px;
-	padding-bottom: 20px;
+	border: 2px solid #ccc;
+	border-radius: 20px;
+	padding: 20px 0px;
 }
 
 .employee {
@@ -314,8 +317,8 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	border-right: 2px solid #ccc;
-	border-bottom: 2px solid #ccc;
-	border-radius: 10px;
+	/*border-bottom: 2px solid #ccc;
+	border-radius: 10px;*/
 	padding: 2% 1% 1% 1%;
 }
 
@@ -394,6 +397,7 @@ body {
 	border: none;
 	cursor: pointer;
 	font-weight: bold;
+	text-shadow: 2px 2px 5px #000;
 }
 
 .contactForm div input[type="submit"]:hover, .contactForm div input[type="reset"]:hover{
@@ -405,6 +409,7 @@ body {
 	margin: 0px;
 	padding-left: 1%;
 	font-weight: bold;
+	text-shadow: 2px 2px 5px #000;
 }
 
 /*__________CONTACT SECTION END__________*/
@@ -455,3 +460,4 @@ body {
 }
 
 /*__________FOOTER SECTION END__________*/
+
