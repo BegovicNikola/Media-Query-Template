@@ -48,14 +48,13 @@ body {
 	color: #fff;
 	font-size: 34px;
 	cursor: pointer;
-	background-color: #252525;
 	padding: 5px 10px;
 	border-radius: 5px;
-	box-shadow: 3px 3px 8px #000;
+	transition: 0.4s;
 	text-shadow: 2px 2px 5px #000;
 }
 
-#menuBtn:hover{
+#menuBtn:hover {
 	text-shadow: 0px 0px 5px #fff;
 }
 
@@ -175,7 +174,7 @@ body {
 	padding: 50px 0px;
 }
 
-#mission p{
+#mission p {
 	margin-top: 10px;
 	text-align: center;
 	font-style: italic;
@@ -337,14 +336,20 @@ body {
 	border-left: 2px solid #ccc;
 }
 
-.employee>img {
+.teamImg img {
 	height: 200px;
 	width: 200px;
-	border-radius: 8px 50% 8px 50%;
+	border-radius: 50% 8px;
+	transition: 0.6s;
 }
 
-.employee img:first-child, .employee img:nth-child(3) {
-	border-radius: 50% 8px 50% 8px;
+.teamImg img:hover{
+	box-shadow: 4px 4px 12px #888;
+	transform: scale(1.1);
+}
+
+#flip{
+	border-radius: 8px 50%;
 }
 
 .employee div {
@@ -366,7 +371,7 @@ body {
 	background-size: cover;
 }
 
-#contactTitle{
+#contactTitle {
 	color: #fff;
 	text-align: center;
 	margin-bottom: 20px;
@@ -409,7 +414,7 @@ body {
 	text-shadow: 2px 2px 5px #000;
 }
 
-.contactForm div input[type="submit"]:hover, .contactForm div input[type="reset"]:hover{
+.contactForm div input[type="submit"]:hover, .contactForm div input[type="reset"]:hover {
 	background-color: rgba(37, 37, 37, 0.1);
 }
 
@@ -459,7 +464,7 @@ body {
 	border-color: #252525;
 }
 
-#location a{
+#location a {
 	color: #000;
 }
 
@@ -470,24 +475,51 @@ body {
 
 /*__________FOOTER SECTION END__________*/
 
-@media screen and (max-width: 960px){
-	.container{
+@media screen and (max-width: 960px) {
+	/*_____GENERAL SECTION START_____*/
+	.container {
 		width: 700px;
 	}
-
-	#mainTitle{
-		margin-top: 20vh;
+	/*_____GENERAL SECTION END_____*/
+	/*_____LANDING PAGE START_____*/
+	#mainTitle {
+		margin-top: 16vh;
 		font-size: 30px;
 	}
-
-	#flexJump{
+	#flexJump {
 		margin-top: 0px;
 	}
-
-	#flexJump a{
+	#flexJump a {
+		font-size: 28px;
 		width: 42%;
 		margin-top: 20px;
 		display: flex;
 		justify-content: space-between;
 	}
+	/*_____LANDING PAGE END_____*/
+	/*_____PROJECTS SECTION START_____*/
+	.alignImg div{
+		width: 200px;
+		font-size: 14px;
+	}
+
+	.pro{
+		width: 48%;
+	}
+
+	.pro:nth-child(3){
+		margin-top: 20px;
+		width: 100%;
+	}
+	/*_____PROJECTS SECTION END_____*/
+	/*_____TEAM SECTION START_____*/
+	.employee{
+		border: none;
+		width: 100%;
+	}
+
+	.putEnd{
+		margin-left: 0;
+	}
+	/*_____TEAM SECTION END_____*/
 }

@@ -1,8 +1,8 @@
 var menu = document.getElementById("menuBtn");
 var sideNav = document.getElementById("sideNav");
 var closeBtn = document.getElementById("closeBtn");
-//var windowHeight = window.innerHeight;
-//var height = windowHeight - windowHeight*0.1;	
+var windowHeight = window.innerHeight;
+var height = windowHeight - windowHeight*0.1;	
 
 menu.addEventListener("click", function(){
   sideNav.style.width = "120px";
@@ -12,13 +12,15 @@ closeBtn.addEventListener("click", function(){
   sideNav.style.width = "0px";
 });
 
-/*window.onscroll = function(){
+window.onscroll = function(){
   if(window.pageYOffset > height){
-    menu.style.color = "#111";
+    menu.style.backgroundColor = "#222";
+    menu.style.boxShadow = "3px 3px 8px #000";
   }else{
-    menu.style.color = "#fff";
+    menu.style.backgroundColor = "transparent";
+    menu.style.boxShadow = "none";
   }
-}*/
+}
 /*__________GENERAL FUNCTIONALITY END__________*/
 
 
