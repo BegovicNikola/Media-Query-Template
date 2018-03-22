@@ -75,6 +75,11 @@ window.sr = ScrollReveal();
     duration: 1200,
     origin: "right"
   });
+  sr.reveal(".contactForm", {
+    delay: 600, 
+    duration: 1200, 
+    origin: "bottom" 
+  });
 
 /*__________SCROLL FUNCTIONALITY END___________*/
 

@@ -452,6 +452,11 @@ body {
 	color: #000;
 	margin-right: 10px;
 	font-size: 24px;
+	transition: 0.2s;
+}
+
+#social a:hover {
+	color: #333;
 }
 
 #footer form {
@@ -561,39 +566,98 @@ body {
 	.alignImg a:first-of-type {
 		order: 2;
 	}
-	
 	.pro, .pro:nth-child(3) {
 		width: 100%;
 		margin: 10px 0px;
 	}
 	/*_____PROJECTS SECTION END_____*/
 	/*_____TEAM SECTION START_____*/
-	.employee{
+	.employee {
 		margin-top: 20px;
 	}
-
-	.teamImg img{
+	.teamImg img {
 		height: 180px;
 		width: 180px;
 	}
-
-	.teamText{
+	.teamText {
 		font-size: 14px;
 		text-align: justify;
 	}
-
-	.teamText h3{
+	.teamText h3 {
 		text-align: center;
 		margin-bottom: 12px;
 	}
 	/*_____TEAM SECTION END_____*/
 	/*_____FOOTER SECTION START_____*/
-	#footer form{
+	#location {
 		width: 100%;
+		order: 2;
+		text-align: center;
+		margin-top: 20px;
 	}
-
-	#social{
+	#search {
 		width: 100%;
+		order: 3;
+	}
+	#search form {
+		width: 100%;
+		margin-top: 10px;
+	}
+	#social {
+		width: 100%;
+		order: 1;
+	}
+	#social a {
+		font-size: 32px;
 	}
 	/*_____FOOTER SECTION END_____*/
+}
+
+@media screen and (max-width: 560px) {
+	/*_____GENERAL SECTION START_____*/
+	.container {
+		width: 320px;
+	}
+	/*_____GENERAL SECTION END_____*/
+	/*_____LANDING PAGE START_____*/
+	#mainTitle h1 {
+		display: none;
+	}
+	#flexJump a {
+		width: 60%;
+		transition: 0.8s;
+	}
+	#flexJump a:hover {
+		width: 100%;
+	}
+	/*_____LANDING PAGE END_____*/
+	/*_____PROJECT SECTION START_____*/
+	.alignImg div {
+		width: 62%;
+	}
+	.alignImg a:hover {
+		transform: none;
+	}
+	/*_____PROJECT SECTION END_____*/
+	/*_____TEAM SECTION START_____*/
+	#team>h2{
+		font-size: 20px;
+	}
+
+	.employee {
+		flex-flow: column;
+	}
+	
+	#switchText{
+		order: 2;
+	}
+
+	#switchImg{
+		order: 1;
+	}
+
+	.teamText{
+		margin-top: 10px;
+	}
+	/*_____TEAM SECTION END_____*/
 }
