@@ -4,10 +4,13 @@
 	<title>SpaceX Aeronautics</title>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="description" content="SpaceX designs and manufactures rockets and spacecraft. The company revolutionized
+	space technology, without costly launches of orbiting satellites with most successful project falcon heavy.">
+	<meta name="keywords" content="SpaceX, space, falcon, rocket, design ">
 	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
-	<!--Ubaciti keywords i description-->
 	<link rel="stylesheet" type="text/css" href="css/style.css"/>
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+	<!-- Note: scrollReveal trenutno ubacuje inline css, koga nema u source code-u i koji se ne pojavljuje na SEO checkup-u, samo kod inspekcije elemenata Chrome Dev Tools-om. (Slobodno ga zanemarite) -->
 </head>
 <body>
 	<!--__________NAVIGATION START__________-->
@@ -96,17 +99,22 @@
 	  <div id="slider">
 	    <div class="slide slide1">
 	      <div class="slideContent">
-	        <span>SpaceX Projects</span>
+	        <span>SpaceX Project: Falcon 9</span>
 	      </div>
 	    </div>
 	    <div class="slide slide2">
 	      <div class="slideContent">
-	      	<span>Falcon 9</span>
+	      	<span>Falcon 9 Launch</span>
 	      </div>
 	    </div>
 	    <div class="slide slide3">
 	      <div class="slideContent">
-	      	<span>Falcon Heavy</span>
+	      	<span>Falcon Heavy Launch</span>
+	      </div>
+		</div>
+		<div class="slide slide4">
+	      <div class="slideContent">
+	      	<span>Kennedy Space Center</span>
 	      </div>
 	    </div>
 	  </div>
@@ -117,7 +125,7 @@
 	<section id="team" class="container">
 			<h2 class="textAlign">Driving force of the company</h2>
 		<article class="employee putEnd">
-			<div class="teamImg"><img src="img/elonMusk.jpg" alt=""/></div>
+			<div class="teamImg"><img src="img/elonMusk.jpg" alt="Elon Musk SpaceX founder and CEO"/></div>
 			<div class="teamText">
 				<h3>Elon Musk</h3>
 				<p>Elon Reeve Musk is a South African-born Canadian American business magnate, investor, and engineer. He is the founder, CEO, and lead designer of SpaceX.</p>
@@ -128,10 +136,10 @@
 				<h3>Gwynne Shotwell</h3>
 				<p>Gwynne Shotwell is an American businesswoman. Gwynne Shotwell is President and Chief Operating Officer at SpaceX.</p>
 			</div>
-			<div id="switchImg" class="teamImg"><img id="flip" src="img/shotwell.jpg" alt=""/></div>
+			<div id="switchImg" class="teamImg"><img id="flip" src="img/shotwell.jpg" alt="Gwynne Shotwell SpaceX CTO"/></div>
 		</article>
 		<article class="employee putEnd">
-			<div class="teamImg"><img src="img/begovic.jpg" alt=""/></div>
+			<div class="teamImg"><img src="img/begovic.jpg" alt="Nikola Begovic"/></div>
 			<div class="teamText">
 				<h3>Nikola Begovic</h3>
 				<p>Web development enthusiast. Currently a student at ICT college of vocational studies in Belgrade, Serbia. </p>
@@ -146,11 +154,11 @@
 			<form class="contactForm" action="#" method="POST">
 				<div>
 					<label for="name">Name:</label>
-					<input type="text" name="name"/>
+					<input id="name" type="text" name="name"/>
 				</div>
 				<div>
 					<label for="email">Email:</label>
-					<input type="text" name="email"/>
+					<input id="email" type="text" name="email"/>
 				</div>
 				<div>
 					<input type="submit" value="Submit" />
