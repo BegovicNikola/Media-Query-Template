@@ -2,4 +2,4 @@
 
 *Fully responsive template*
 
-*DEMO:* http://spacexaero.epizy.com/
+*DEMO:* https://begovicnikola.github.io/MediaQueryTemplate/
